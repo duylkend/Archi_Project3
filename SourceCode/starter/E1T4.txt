@@ -1,0 +1,8 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+Web Service Instance should not place in the public subnet to facing with internet because we have load balancer already do that.
+instead of we should place "Web Service Instance" in the private subnet and config only allow connect from load balancer ( config security-group only allow from load balancer security-group)
+
+# Poor practice 2
+S3 should have policy which only allow access from the Web Service Instance and the connection should not leave AWS network.

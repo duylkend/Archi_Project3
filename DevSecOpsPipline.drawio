@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" modified="2024-07-10T16:25:13.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="z7XuXDNfvQFMCDZFma27" version="24.5.5" type="device">
+  <diagram id="vgNcg3NjHC2Le8-HEsgv" name="Page-1">
+    <mxGraphModel dx="1434" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_r4fAib-EirpmsGa-A9b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-1" target="_r4fAib-EirpmsGa-A9b-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-1" value="Application &lt;br style=&quot;font-size: 16px;&quot;&gt;or code change" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-2" target="_r4fAib-EirpmsGa-A9b-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-2" value="Build image" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="220" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-3" target="_r4fAib-EirpmsGa-A9b-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-3" value="Update cloud infrastrucutre" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="510" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.443;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-4" target="_r4fAib-EirpmsGa-A9b-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="280" />
+              <mxPoint x="572" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yw-m_9kBGLlBKegJ8sk3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_r4fAib-EirpmsGa-A9b-4" target="_r4fAib-EirpmsGa-A9b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-4" value="Running scan infrastrucutres" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="660" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-5" target="_r4fAib-EirpmsGa-A9b-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-5" target="_r4fAib-EirpmsGa-A9b-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-5" value="&lt;span style=&quot;color: rgb(26, 32, 44); font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Post-deployment compliance scanning&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="822" y="310" width="183" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-6" target="_r4fAib-EirpmsGa-A9b-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="280" />
+              <mxPoint x="150" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;" parent="1" source="_r4fAib-EirpmsGa-A9b-6" target="_r4fAib-EirpmsGa-A9b-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-6" value="Scan&lt;br style=&quot;font-size: 16px;&quot;&gt;image or AMI" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="360" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_r4fAib-EirpmsGa-A9b-7" value="Deloy" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1018" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

