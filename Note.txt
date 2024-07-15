@@ -1,5 +1,5 @@
 
-aws cloudformation create-stack --region us-east-1 --stack-name c3-s3 --template-body file://starter/c3-s3.yml
+aws cloudformation create-stack --region us-east-1 --stack-name c3-s3-1 --template-body file://starter/c3-s3.yml
 
 aws cloudformation create-stack --region us-east-1 --stack-name c3-vpc --template-body file://starter/c3-vpc.yml
 
@@ -29,6 +29,29 @@ aws s3 cp s3://cand-c3-secret-recipes-720240617631/secret_recipe.txt  .  --regio
 cat secret_recipe.txt
 
 Ex4
-ssh -i "C:\Users\leduy\.ssh\duylk.pem" ubuntu@ec2-54-237-165-81.compute-1.amazonaws.com
+ssh -i "C:\Users\leduy\.ssh\duylk.pem" ubuntu@ec2-18-211-137-227.compute-1.amazonaws.com
 sudo vi /etc/ssh/sshd_config
 sudo service ssh restart
+
+# view the files in the secret recipes bucket
+aws s3 ls  s3://cand-c3-cand-c3-free-recipes-720240617631/ --region us-east-1
+ 
+# download the files
+aws s3 cp s3://cand-c3-secret-recipes-720240617631/secret_recipe.txt  .  --region us-east-1
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::cand-c3-free-recipes-720240617631"
+            ]
+        }
+    ]
+}
